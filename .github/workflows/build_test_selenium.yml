@@ -21,8 +21,8 @@ jobs:
 
     - name: Install Chrome
       run:
-        sudo apt-get upgrade
-        sudo apt-get install -y google-chrome-stable
+        sudo apt upgrade
+        sudo apt install -y google-chrome-stable
         
     - name: Restore dependencies
       run: dotnet restore
